@@ -1,10 +1,13 @@
 shopt -s histappend
+export HISTCONTROL=erasedups
+export HISTSIZE=10000
 
 export PATH=$PATH:~/bin/baseline/bin
 
 alias vim='mvim -v'
 export VISUAL='vim -f'
 export EDITOR='vim -f'
+
 
 alias d="cd ~/Documents"
 alias p="cd ~/Documents/codes"
