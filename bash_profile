@@ -1,5 +1,6 @@
 shopt -s histappend
 
+export PATH=$PATH:~/bin/baseline/bin
 
 alias vim='mvim -v'
 export VISUAL='vim -f'
@@ -92,5 +93,6 @@ if [[ "$TERM" == "xterm" || "$TERM" == "xterm-color" ]] ; then
  export PROMPT_COMMAND="directory_to_titlebar"
 fi
 
+eval "$(baseline autocomplete)"
 
 date
