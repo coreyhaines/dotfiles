@@ -7,11 +7,15 @@ export VISUAL='vim -f'
 export EDITOR='vim -f'
 
 alias d="cd ~/Documents"
+alias p="cd ~/Documents/codes"
 alias ls="/bin/ls -a"
 
 alias gst='git status'
 alias gb='git branch'
 alias gca='git commit -v -a'
+
+alias vp='vim ~/dotfiles/bash_profile'
+alias sp='source ~/.bash_profile'
 
 export HISTIGNORE="fg*"
 
