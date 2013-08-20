@@ -16,7 +16,7 @@ alias ls="/bin/ls -a"
 alias gst='git status'
 alias gb='git branch'
 alias gca='git commit -v -a'
-source git-completion.bash
+source ~/dotfiles/git-completion.bash
 
 alias vp='vim ~/dotfiles/bash_profile'
 alias sp='source ~/.bash_profile'
